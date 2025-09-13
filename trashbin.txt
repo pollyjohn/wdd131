@@ -1,3 +1,15 @@
+Pyspark
+ 
+Google cloud
+ 
+AWS
+ 
+project
+ 
+Brazilia labor market DATA project
+ 
+https://www.dremio.com/
+ 
 width:max-content;
  
 max-width: 700px;
