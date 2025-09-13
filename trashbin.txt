@@ -1,3 +1,5 @@
+width:max-content;
+ 
 max-width: 700px;
  
 
