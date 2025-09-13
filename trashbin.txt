@@ -1,3 +1,5 @@
+max-width: 700px;
+ 
 
 const formatter = new Intl.DateTimeFormat("en-US", {
   year: "numeric",
