@@ -1,0 +1,164 @@
+
+const formatter = new Intl.DateTimeFormat("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+  hour: "numeric",
+  minute: "numeric",
+  second: "numeric"
+});
+ 
+lastModifiedElement.innerHTML = `<span class="lastModified">Last Modified: ${parsedDateTime}</span>`;
+ 
+// Exibe a data formatada no seu elemento HTML
+ 
+// Formata a data e a hora usando o formatador
+const parsedDateTime = formatter.format(today);
+ 
+// Cria um formatador de data
+ 
+// Seleciona o elemento que vai exibir a data de última modificação
+
+
+// Cria um novo objeto Date para a data e hora atuais
+const today = new Date();
+
+ 
+const lastModifiedElement = document.getElementById("lastModified");
+ 
+const formatter = new Intl.DateTimeFormat("en-US" , {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "mumeric",
+    second: "numeric"
+});
+ 
+lasmodified.innerHTML = `<span class="lastmodified">${today.getDate(), today.getTime}</span>`
+
+ 
+const lastModified = document.getElementById("#lastModified")
+ 
+class="lastModified"
+ 
+class="copyright"
+ 
+contenteditable=
+ 
+contenteditable
+ 
+id="lastModified"
+ 
+Intl.DateTimeFormat("en-US")
+ 
+Intl.DateTimeFormat(en-US)
+ 
+const year = document.querySelector("#currentyear")
+
+ 
+©
+ 
+getFullYear(): 
+ 
+double
+ 
+double
+ 
+dotted
+ 
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Shantell+Sans&display=swap');
+
+ 
+</section>
+ 
+</section>    
+ 
+height: 2rem;
+ 
+border: 1rem;
+ 
+header { 
+    width: auto;
+    height: 5rem;
+}
+ 
+wdd 131: Dynamic web fundamentas -
+ 
+<span>João Paulo Pires</span>
+ 
+ find 
+ 
+some 
+ 
+text-align: center;    
+    
+ 
+align-content:space-evenly ;
+ 
+align-items: center; 
+ 
+/* Para centralizar horizontalmente */
+ 
+/* Isto é crucial para empilhar itens verticalmente */
+ 
+/* Substitua por seletor real */
+ 
+div-pai-da-
+ 
+</div>
+ 
+ float:inline-end;
+ 
+span
+ 
+lue
+ 
+yellow
+ 
+color: yellow;
+ 
+color: aliceblue;
+ 
+background-color: blue;
+ 
+right-side
+ 
+align-items:flex-end;
+ 
+flex-flow:column;
+ 
+flex-flow: wrap;
+ 
+/home/joaopaulo/Documents/pathway/web/wdd131/images
+ 
+contenteditable
+ 
+Brasília - Brazil
+ 
+<span>💻🎲</span>
+ 
+💻🎲
+ 
+<data value=""></data>
+ 
+main {
+    grid-column: 1 / 3;
+    background-color: coral;
+    border-radius: 2%;
+    margin: 1%;
+    
+}
+ 
+grid-column: 1 / 3;
+    background-color: coral;
+ 
+background-color: coral;
+ 
+grid-column: 1 / 3;
+ 
+João Paulo Pires
+ 
+ margin-top: ;
+
+ 
