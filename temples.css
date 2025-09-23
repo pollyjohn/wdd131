@@ -1,0 +1,57 @@
+@media (max-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		flex: 1 0 auto; /* flex: [flex-grow] [flex-shrink] [flex-basis]; 
+		in this example, the items will not shrink but can grow to fill the space at natural content width*/
+
+}}
+
+
+.navigation {
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+}
+
+.navigation li {
+    flex:  1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.temples {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.temples img {
+    width: 200%;
+    height: auto;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.row  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column {
+    display: block;
+         flex: 100%;
+/* Adjust the width as needed */
+}
+
