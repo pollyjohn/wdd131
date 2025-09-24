@@ -1,0 +1,125 @@
+@media only screen and (min-width: 40em) {
+	h1 {
+		font-size: 2rem;
+	}
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+
+    nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		flex: 1 0 auto; /* flex: [flex-grow] [flex-shrink] [flex-basis]; 
+		in this example, the items will not shrink but can grow to fill the space at natural content width*/
+}
+
+
+
+
+@media (max-width: 840px) {
+	nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		flex: 1 0 auto; /* flex: [flex-grow] [flex-shrink] [flex-basis]; 
+		in this example, the items will not shrink but can grow to fill the space at natural content width*/
+
+}}
+
+
+
+.navigation {
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+}
+
+.navigation li {
+    flex:  1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+header{max-width: 540px;
+    margin: 0 auto;}
+
+main {max-width: 540px;
+    margin: 0 auto;
+    display: grid;
+	
+}
+
+.temples {
+    display: grid;
+    width: 90%;
+    background: #ffffff;
+    gap: 16px;
+    grid-template-columns: auto 2fr auto;
+	grid-gap: 7px;
+}
+    
+
+.temples img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    text-align: center;
+    grid-column: 1/3;
+}
+
+.row  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column {
+    display:grid;
+         flex: 100%;
+         grid-column: 1/3;
+/* Adjust the width as needed */
+}
+
+footer {max-width: 540px;
+    margin: 0 auto;}
+
+
+    footer {
+        grid-column: 2 / 4;
+        text-align: center;
+        background-color: rgb(4, 138, 15);
+    
+    }
+    
+    footer span, p {
+        color: azure;
+    }
+    
+    footer 
+        {max-width: 540px;
+            margin: 0 auto;
+            display: grid;
+            
+        }
+
+
+    }
