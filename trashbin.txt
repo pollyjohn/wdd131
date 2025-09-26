@@ -1,3 +1,365 @@
+       <link rel="stylesheet" type="text/css" href="./styles/media-query-large.css" >
+ 
+        <link rel="stylesheet" type="text/css" href="./styles/media-query.css">
+
+ 
+body max-width: ; 
+ 
+.active {
+        background-color: aquamarine;
+    }
+ 
+       <link rel="stylesheet" type="text/css" href="./styles/media-query-large.css" > 
+
+ 
+edia="screen and (max-width: 599px)
+ 
+display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem;
+ 
+right: 30%;
+ 
+grid-column: 2/4;
+ 
+margin
+ 
+header{
+        }
+ 
+        grid-gap: 2rem;
+
+ 
+.temples img {
+       row-gap: 50px; 
+    }
+
+
+ 
+width: 90%;
+        height: auto;
+        overflow: hidden;
+        background-color: #eeea11;
+        text-align: center;
+        display: flex;
+        
+ 
+    
+.temples {
+    size: 150%;
+}  
+ 
+   .column {
+        grid-template-columns: 1fr 1fr  ;
+ 
+    .column1 {
+        display:inline-block;
+        grid-column: 1/2;
+             
+            
+    /* Adjust the width as needed */
+    }
+    
+    .column2 {
+        display:block;
+        grid-column: 2/3;
+        grid-row: 1/6;
+        
+    /* Adjust the width as needed */
+    }
+    
+ 
+nav {
+    background-color: rgb(14, 10, 226);
+
+    color: #000;
+
+    display:block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #53d309;
+    color: #000;
+}
+
+.navigation {
+    list-style:none;
+    margin: 0 auto;    
+}
+
+.navigation li {
+display: inline-block;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+.navigation a:hover, .navigation a:active { color: rgb(146, 29, 29);
+background-color: black;}
+
+
+
+
+
+
+header{
+    }
+
+main { display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;	
+}
+
+.temples {
+    display: grid;
+
+    padding: 1rem;
+    background-color: #cf0808;
+    
+}
+    
+
+.temples img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #eeea11;
+    text-align: center;
+    display: flex;
+}
+
+
+
+.row  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+}
+
+.column1 {
+    display:inline-block;
+    grid-column: 1/2;
+         
+        
+/* Adjust the width as needed */
+}
+
+.column2 {
+    display:block;
+    grid-column: 2/3;
+    grid-row: 1/6;
+    
+/* Adjust the width as needed */
+}
+
+
+footer {
+    margin: 0 auto;}
+
+
+    footer {
+        grid-column: 2 / 4;
+        text-align: center;
+        background-color: rgb(4, 138, 15);
+    
+    }
+    
+    footer span, p {
+        color: black;
+    }
+    
+    footer 
+        {
+            margin: 0 auto;
+            display: grid;
+            
+        }
+
+main, header, footer {
+    margin: 1rem auto;
+    border: 1px solid #d41414;
+    padding:  1rem;
+    background-color: #2d12f7;
+    color: black;
+}
+
+.active {
+    background-color: aquamarine;
+}
+ 
+    grid-row: 1/6;
+
+ 
+block
+ 
+grid-template-columns: 1fr 1fr;
+    
+ 
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+ 
+    justify-content: space-evenly;
+
+ 
+    flex-wrap: wrap;
+
+ 
+    grid-row: 1/5;
+
+ 
+    flex-wrap: wrap;
+
+ 
+    flex-wrap: wrap;
+
+ 
+grid-column: 3/5;
+/* Adjust the width as needed */
+}
+ 
+grid-column: 2/4;
+ 
+grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+ 
+grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+grid-column: 1/4;
+ 
+block
+ 
+    display: none;
+ 
+    text-decoration: none;
+
+ 
+#menu {
+    display:block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #53d309;
+    color: #000;
+}
+ 
+
+#menu {
+    display:block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    background-color: #53d309;
+    color: #000;
+} 
+ 
+grid-template-columns:  1fr 1fr ;
+    grid-template-rows: 1fr auto 1fr;
+    margin: 0 auto;
+ 
+block
+ 
+#menu.show::before {
+    content: "X";
+ 
+.show li {
+    display: block;
+
+}
+ 
+#menu::before {
+    content: "≡";
+}
+ 
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+ 
+.row  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.column {
+    display:grid;
+         flex: 100%;
+         grid-column: 2/4;
+/* Adjust the width as needed */
+}
+ 
+grid-template-columns:  1fr 1fr ;
+    
+    margin: 0 auto;}
+
+ 
+block
+ 
+         flex: 100%;
+
+ 
+ flex-wrap: wrap;
+ 
+ 
+display: flex;
+   
+ 
+flex: 100%;
+ 
+640px
+ 
+max-width: 750px
+ 
+    max-width: 640px;
+
+ 
+display:grid;
+ 
+    flex-wrap: wrap;
+ 
+    display: flex;
+
+ 
+ax-width: 750px
+ 
+        <link rel="stylesheet"  type="text/css" href="./styles/media-query.css" media="screen and (max-width: 599px)">
+        <link rel="stylesheet" type="text/css" href="./styles/media-query-large.css" media="screen and (min-width: 600px)">
+
+ 
+ -->
+ 
+/
+ 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+grid-template-rows: 1fr 1fr ;
+ 
+1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+ 
+1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+ 
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr1fr 1fr 1fr 1fr;
+ 
+uto
+ 
+auto 1fr
+ 
+1fr auto
+ 
+
+body {
+    display: grid;
+}
+ 
     max-width: 760px;
 
  

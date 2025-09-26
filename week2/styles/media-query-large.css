@@ -1,14 +1,174 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 640px) {
+    
     header {
+        display: grid;
         background-color: black;
-        color: white;
+        color: rgb(172, 10, 194);
+        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 1fr  1fr 1fr 1fr 1fr ;
+    }
+
+    header h1 {
+        grid-column: 3/6;
     }
     main {
         display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     main .temples {
-        grid-template-columns: auto 1fr 1fr 1fr auto;
+        grid-template-columns:  1fr 1fr;
         grid-gap: 1rem;
     }
+
+ 
+        
+    
+
+    .rows {
+        grid-template-rows: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+
+    }
+
+    
+    nav {
+        background-color: rgb(14, 10, 226);
+    
+        color: #000;
+    
+        display:block;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 0.5rem 0.75rem;
+        background-color: #53d309;
+        color: #000;
+        grid-column: 2/5 ;
+
+        grid-row: 2/3;
+    }
+    
+    .navigation {
+        list-style:none;
+        margin: 0 auto;    
+    }
+    
+    .navigation li {
+    display: inline-block;
+    }
+    
+    .navigation a {
+        display: block;
+        padding: 0.75rem;
+        text-align: left;
+        color: black;
+        font-weight: 700;
+        transition: 0.5s;
+        font-size: clamp(1rem, 2vmin, 1.5rem);
+    }
+    .navigation a:hover, .navigation a:active { color: rgb(146, 29, 29);
+    background-color: black;}
+      
+    
+    
+
+    
+    main { display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem;	
+    }
+
+    main h1{ grid-column: 3/6;	
+    }
+    
+    .temples {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        padding: 1rem;
+        background-color: #cf0808;
+        grid-column: 1/6;
+        
+    }
+        
+    
+        .temples li {
+        list-style: none;
+        grid-gap: 2rem;
+        
+
+    }
+    
+    
+    
+    .row  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        grid-column: 1/4;
+ 
+    }
+
+    .column1, .column2 {
+        grid-gap: 1rem;
+        padding: 5%;
+    }
+    
+
+    
+    footer {
+        margin: 0 auto;}
+    
+    
+        footer {
+            grid-column: 2 / 4;
+            text-align: center;
+            background-color: rgb(4, 138, 15);
+        
+        }
+        
+        footer span, p {
+            color: black;
+        }
+        
+        footer 
+            {
+                margin: 0 auto;
+                display: grid;
+                
+            }
+    
+    main, header, footer {
+        margin: 1rem auto;
+        border: 1px solid #d41414;
+        padding:  1rem;
+        background-color: #2d12f7;
+        color: black;
+    }
+    
+    .active {
+        background-color: aquamarine;
+    }
+
+    
+   .temples img {
+        width: 100%;
+        height: auto;
+    
+
+    }  
+
+
+
 }
+
+
+
+
+
+ 
+
+
+
