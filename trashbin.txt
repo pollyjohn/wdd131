@@ -1,3 +1,64 @@
+display: grid;
+        grid-column: 2/5;
+ 
+grid-column: 2/6;
+ 
+display: grid;
+ 
+        color: rgb(213, 190, 216);
+
+ 
+nav ul  {
+    align-self: center;
+ }
+ 
+        /* (Opcional) Adiciona um espaço entre os itens */
+ 
+/* CENTRALIZA OS ITENS HORIZONTALMENTE */
+ 
+ /* ATIVA O FLEXBOX */
+ 
+ /* Remove a margem padrão da ul */
+ 
+ /* Remove o preenchimento padrão da ul */
+ 
+ /* Remove os pontinhos da lista */
+ 
+/* ATIVA O FLEXBOX */
+ 
+* CENTRALIZA OS ITENS HORIZONTALMENTE */
+ 
+/* Garante que o texto dentro do link também esteja alinhado */
+ 
+    .navigation li {
+        /* A propriedade 'display: inline-block;' não é mais necessária! */
+        /* O Flexbox cuida disso. Deixe esta regra vazia ou remova-a. */
+    }
+ 
+ text-align: right ;
+ 
+display: inline-block;
+      
+ 
+display:inline-block;
+ 
+gap: 3rem;  
+ 
+gap: 1rem;
+ 
+display: flex;  
+ 
+grid-column: 2/5;
+ 
+        align-items:start;   
+        align-content: start;
+ 
+end
+ 
+enter
+ 
+    align-content: center;
+ 
 @media only screen and (max-width: 640px) {
  
 
