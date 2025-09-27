@@ -1,4 +1,4 @@
-@media (max-width: 540px) {
+@media (max-width: 639px) {
 	nav ul {
 		display: flex;
 	}
@@ -10,7 +10,7 @@
 }}
 
 
-@media (max-width: 840px) {
+@media (max-width: 639px) {
 	nav ul {
 		display: flex;
 	}
@@ -42,7 +42,7 @@ nav {
 .navigation {
     list-style:none;
     margin: 0 auto;    
-    max-width: 760px;
+    max-width: 639px;
 }
 
 .navigation li {
@@ -71,10 +71,10 @@ background-color: black;}
     content: "X";
 }
 
-header{max-width: 540px;
+header{max-width: 639px;
     margin: 0 auto;}
 
-main {max-width: 540px;
+main {max-width: 639px;
     margin: 0 auto;
     display: grid;
 	
@@ -112,7 +112,7 @@ main {max-width: 540px;
 /* Adjust the width as needed */
 }
 
-footer {max-width: 540px;
+footer {max-width: 639px;
     margin: 0 auto;}
 
 
@@ -128,7 +128,7 @@ footer {max-width: 540px;
     }
     
     footer 
-        {max-width: 540px;
+        {max-width: 639px;
             margin: 0 auto;
             display: grid;
             

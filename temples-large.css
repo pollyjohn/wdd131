@@ -55,7 +55,7 @@
     text-decoration: none;
     text-align: center;
 }
-header{max-width: 640px;
+header{min-width: 640px;
     margin: 0 auto;}
 
 main {min-width: 640px;
@@ -112,7 +112,7 @@ footer {max-width: 640px;
     }
     
     footer 
-        {max-width: 640px;
+        {min-width: 640px;
             margin: 0 auto;
             display: grid;
             
