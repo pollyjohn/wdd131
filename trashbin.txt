@@ -1,3 +1,13 @@
+./images/curitiba-brazil-temple-1078-main.jpg
+ 
+./images/recife-brazil-temple-36778-main.jpg
+ 
+./images/belo-horizonte-brazil-temple-22100-main.jpg
+ 
+belo-horizonte-brazil-temple-22100-main.jpg
+ 
+brasilia-brazil-temple-39184-main.jpg
+ 
 display: grid;
         grid-column: 2/5;
  
