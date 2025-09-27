@@ -1,3 +1,18 @@
+media="@media only screen and (min-width: 640px)"
+ 
+<link rel="stylesheet" type="text/css" href="./temples.css">
+ 
+<link rel="stylesheet" type="text/css" href="./temples-large.css">
+
+ 
+<link rel="stylesheet" type="text/css" href="./temples-large.css">
+
+ 
+ @media screen and (max-width: 639px) { 
+
+ 
+max-width: 639px;
+ 
        <link rel="stylesheet" type="text/css" href="./styles/media-query-large.css" >
  
         <link rel="stylesheet" type="text/css" href="./styles/media-query.css">
