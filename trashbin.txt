@@ -1,3 +1,11 @@
+@media only screen and (max-width: 640px) {
+ 
+
+@media (max-width: 639px) {
+ 
+        <link rel="stylesheet" type="text/css" href="./temples-large.css"  >
+
+ 
         <link rel="stylesheet" type="text/css" href="./temples-large.css"  >
 
  

@@ -1,4 +1,4 @@
-@media (max-width: 639px) {
+
 	nav ul {
 		display: flex;
 	}
@@ -7,10 +7,9 @@
 		flex: 1 0 auto; /* flex: [flex-grow] [flex-shrink] [flex-basis]; 
 		in this example, the items will not shrink but can grow to fill the space at natural content width*/
 
-}}
+}
 
 
-@media (max-width: 639px) {
 	nav ul {
 		display: flex;
 	}
@@ -19,7 +18,7 @@
 		flex: 1 0 auto; /* flex: [flex-grow] [flex-shrink] [flex-basis]; 
 		in this example, the items will not shrink but can grow to fill the space at natural content width*/
 
-}}
+}
 
 #menu {
     display: block;

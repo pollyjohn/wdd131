@@ -1,4 +1,4 @@
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
 	h1 {
 		font-size: 2rem;
 	}
@@ -55,10 +55,10 @@
     text-decoration: none;
     text-align: center;
 }
-header{min-width: 640px;
+header{min-width: 641px;
     margin: 0 auto;}
 
-main {min-width: 640px;
+main {min-width: 641px;
     margin: 0 auto;
     display: grid;
 	
@@ -96,7 +96,7 @@ main {min-width: 640px;
 /* Adjust the width as needed */
 }
 
-footer {max-width: 640px;
+footer {max-width: 641px;
     margin: 0 auto;}
 
 
@@ -112,7 +112,7 @@ footer {max-width: 640px;
     }
     
     footer 
-        {min-width: 640px;
+        {min-width: 641px;
             margin: 0 auto;
             display: grid;
             
