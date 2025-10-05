@@ -94,14 +94,6 @@
     /* Transforma o elemento em um bloco para poder definir largura e altura */
     display: inline-block; 
 
-    /* 2. Imagem de Fundo */
-    /* Link para o seu arquivo SVG ou PNG */
-    background-image: url('./brasilia-brazil-temple-39184-main.jpg'); 
-    background-size: contain; 
-    background-repeat: no-repeat;
-    background-position: center;
-
-    /* 3. Dimensionamento e Posicionamento */
     width: 100%; /* Largura do ícone */
     height: auto; /* Altura do ícone */
     
