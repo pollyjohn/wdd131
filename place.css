@@ -94,8 +94,8 @@
     /* Transforma o elemento em um bloco para poder definir largura e altura */
     display: inline-block; 
 
-    width: 100%; /* Largura do ícone */
-    height: auto; /* Altura do ícone */
+    width: 34px; /* Largura do ícone */
+    height: 34px; /* Altura do ícone */
     
     /* Alinhamento vertical e margem para ajustar ao lado do texto */
     vertical-align: middle; 

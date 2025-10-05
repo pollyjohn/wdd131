@@ -1,4 +1,4 @@
-@media only screen and (min-width: 621px){
+@media only screen and (min-width: 640px){
  
 
  
@@ -41,13 +41,13 @@
     position: absolute; 
     background-color: rgba(255, 255, 255, 0.9);
     /* Exemplo de posicionamento: Centro da imagem */
-    padding: 0;         /* Move 50% a partir do topo do contêiner */
+    padding: 0px;         /* Move 50% a partir do topo do contêiner */
     transform: skewY(-1deg);
     /* Estilos de visualização (cores, padding, etc.) */
     background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
     color: rgb(9, 9, 9);
-    bottom: 5%;    
-    right: 5%;
+    top: 10%;    
+    left: 10%;
     width: 15rem;
     text-align: center;
     border-radius: 8px;
@@ -62,11 +62,13 @@
     /* Estilos de visualização (cores, padding, etc.) */
     background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
     color: rgb(0, 0, 0);
-    top: 5%;    
-    left: 5%;
+    bottom: 5%;    
+    right: 5%;
     width: 15rem;
+    height: 20%;
     border-radius: 8px;
-   text-align: center; 
+   text-align: center;
+    
     }
 
     section h2{
@@ -85,7 +87,16 @@
         padding: 2.5em;
         margin: 0;
         font-size: 0.9em;
+        line-height: 1.5;
     }
+
+    
+    .weather  ul{
+        position: absolute;
+        top: 35%;
+        flex-wrap: wrap;
+        left: 8%;
+        }
 
     .title {
         position: relative;
@@ -102,15 +113,13 @@
 
     }
 
+  .weather-icon {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
 }
 
-    .weather-icon {
-        display: none;
-    }
+}
 
-    .weather-icon {
-        display: none;
-        width: 50px; 
-        height: 1.5em; 
-        margin-left: 0.5em; 
-    }
+
+
