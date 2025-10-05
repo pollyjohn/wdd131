@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>WDD 131 - Dynamic Web Fundamentals - João Paulo Pires</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="WDD 131 - Dynamic Web Fundamentals will present information 
+        about João Paulo Pires, where he lives and also ways to access his projects and social media profiles">
+        <meta name="author" content="João Paulo Pires">
+
+        
+        <link rel="stylesheet" type="text/css" href="./place.css" media="screen and (max-width: 640px)">
+        <link rel="stylesheet" href="./place-large.css" media="screen and (min-width: 640px)">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+        <script src="./place.js" defer>  </script>
+    </head>
+<body>
+    <header>
+        <h1> Brasilía - Distro Federal</h1>
+    </header>
+    <main>
+        <div class="parent_container"> 
+            <picture>
+                <source srcset="./images/torres_6_9.webp" media="(max-width: 640px)">
+                <source srcset="./images/VAGNER-MACHADO-4-2000x1500.webp" media="(min-width: 641px)">
+                <img src="./images/images.jpg" alt="Brasília landmark">
+            </picture>
+        
+        <section class="data">
+                        <h2>Data</h2>
+            <ul>
+                    <li><span>País:</span> Brasil</li>
+                    <li><span>Estado:</span> Rio Grande do Sul (RS)</li>
+                    <li><span>População:</span> ~38.000 (Estimativa 2022)</li>
+                    <li><span>Área:</span> 168.08 km²</li>
+                    <li><span>Idioma:</span> Português (BR)</li>
+                    <li><span>Moeda:</span> Real (BRL)</li>
+                    <li><span>Fuso Horário:</span> UTC -3 (GMT-3)</li>
+                    <li><span>DDD:</span> 51</li>
+            </ul>
+        </section>
+        <section class="weather">
+                        <h2 class="title" >Weather</h2>
+                        <img  src="./images/reshot-icon-weather-8CKJB9YN7X (1).svg" class="weather-icon" alt="Weather Icon">
+                <ul>
+                    <li><span>Temperature: </span> xx <span> *C</span> </li>
+                    <li><span>Conditions: </span> xxxx</li>
+                    <li><span>Wind: </span> x <span> km/h</span> </li>
+                    <li><span>Wind Chill:</span> <span id="windchill-display">...</span></li>
+                </ul>
+
+        </section>
+        </div>
+    </main>
+    <footer>
+            <p> © <span id="currentyear"> </span><span>💻🎲</span><span>João Paulo Alves Pires</span> <span>💻🎲</span> <span>Brasília - Brazil</span></p>
+            <p > <span id="lastModified"></span></p>
+    </footer>
+</body> 
+</html>

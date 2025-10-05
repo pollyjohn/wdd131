@@ -1,0 +1,114 @@
+@media only screen and (max-width: 640px){
+ 
+    header, footer {
+        text-align: center;
+        padding: 1em;
+        background-color: #c23b22;
+        color: white;
+    }
+
+
+    body {
+        max-width: 1580px;
+            margin: 0 auto;
+    border: 15px solid;
+    border-image: linear-gradient(to top, #c23b22, #006847) 1;
+    height: auto;
+
+    }
+    .parent_container {
+    /* É crucial que o pai tenha position: relative para que 
+       o position: absolute do filho funcione em relação a ele. */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* Opcional: define a largura máxima do bloco */
+    width: 100%; 
+    height: auto;
+}
+
+/* Garante que a imagem preencha o contêiner e não saia do fluxo */
+.parent_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 2. O Conteúdo Flutuante: Posiciona-o sobre a imagem */
+.data {
+    /* Tira a section do fluxo e a posiciona em relação ao seu pai (hero-image-container) */
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Exemplo de posicionamento: Centro da imagem */
+    padding: 0;         /* Move 50% a partir do topo do contêiner */
+    /* Estilos de visualização (cores, padding, etc.) */
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
+    color: rgb(9, 9, 9);
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.weather {
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Exemplo de posicionamento: Centro da imagem */
+    padding: 0;         /* Move 50% a partir do topo do contêiner */
+    /* Estilos de visualização (cores, padding, etc.) */
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 8px;
+    
+    }
+
+    section h2{
+        position: absolute;
+        width: 6rem;
+        
+        top: -1.0em;
+        margin: 0;
+        padding: 1em;
+        background-color: #c23a2200;
+        color: rgb(0, 0, 0);
+    }
+
+    section ul {
+        list-style: none;
+        padding: 2.5em;
+        margin: 0;
+        font-size: 0.9em;
+    }
+    .title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%; 
+        font-size: 2em; 
+        margin-right: 0.5em; 
+    } 
+    .weather-icon {
+    content: ""; 
+    /* Transforma o elemento em um bloco para poder definir largura e altura */
+    display: inline-block; 
+
+    /* 2. Imagem de Fundo */
+    /* Link para o seu arquivo SVG ou PNG */
+    background-image: url('./brasilia-brazil-temple-39184-main.jpg'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* 3. Dimensionamento e Posicionamento */
+    width: 100%; /* Largura do ícone */
+    height: auto; /* Altura do ícone */
+    
+    /* Alinhamento vertical e margem para ajustar ao lado do texto */
+    vertical-align: middle; 
+    margin-right: 8px;
+
+
+    }
+}

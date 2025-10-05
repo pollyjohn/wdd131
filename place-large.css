@@ -1,0 +1,116 @@
+@media only screen and (min-width: 621px){
+ 
+
+ 
+    header, footer {
+        text-align: center;
+        padding: 1em;
+        background-color: #c23b22;
+        color: white;
+    }
+
+
+    body {
+        max-width: 1580px;
+            margin: 0 auto;
+    border: 15px solid;
+    border-image: linear-gradient(to top, #c23b22, #006847) 1;
+    height: auto;
+
+    }
+    .parent_container {
+    /* É crucial que o pai tenha position: relative para que 
+       o position: absolute do filho funcione em relação a ele. */
+    position: relative;
+
+    /* Opcional: define a largura máxima do bloco */
+    width: 100%; 
+    height: auto;
+}
+
+/* Garante que a imagem preencha o contêiner e não saia do fluxo */
+.parent_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 2. O Conteúdo Flutuante: Posiciona-o sobre a imagem */
+.data {
+    /* Tira a section do fluxo e a posiciona em relação ao seu pai (hero-image-container) */
+    position: absolute; 
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Exemplo de posicionamento: Centro da imagem */
+    padding: 0;         /* Move 50% a partir do topo do contêiner */
+    transform: skewY(-1deg);
+    /* Estilos de visualização (cores, padding, etc.) */
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
+    color: rgb(9, 9, 9);
+    bottom: 5%;    
+    right: 5%;
+    width: 15rem;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.weather {
+    position: absolute; 
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Exemplo de posicionamento: Centro da imagem */
+    padding: 0;         /* Move 50% a partir do topo do contêiner */
+    /* Estilos de visualização (cores, padding, etc.) */
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
+    color: rgb(0, 0, 0);
+    top: 5%;    
+    left: 5%;
+    width: 15rem;
+    border-radius: 8px;
+   text-align: center; 
+    }
+
+    section h2{
+        position: absolute;
+        width: 9rem;
+        top: -2.0em;
+        left: -2.5em;
+        margin: 0;
+        padding: 1em;
+        background-color: #c23b22;
+        color: white;
+    }
+
+    section ul {
+        list-style: none;
+        padding: 2.5em;
+        margin: 0;
+        font-size: 0.9em;
+    }
+
+    .title {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 80%; 
+        font-size: 2em; 
+        margin-right: 0.5em; 
+    } 
+
+    .title::after {
+    content: "☀️"; 
+    font-size: 1.5em;
+
+    }
+
+}
+
+    .weather-icon {
+        display: none;
+    }
+
+    .weather-icon {
+        display: none;
+        width: 50px; 
+        height: 1.5em; 
+        margin-left: 0.5em; 
+    }
