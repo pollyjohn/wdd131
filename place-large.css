@@ -19,32 +19,31 @@
 
     }
     .parent_container {
-    /* É crucial que o pai tenha position: relative para que 
-       o position: absolute do filho funcione em relação a ele. */
+   
     position: relative;
 
-    /* Opcional: define a largura máxima do bloco */
+   
     width: 100%; 
     height: auto;
 }
 
-/* Garante que a imagem preencha o contêiner e não saia do fluxo */
+
 .parent_container img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-/* 2. O Conteúdo Flutuante: Posiciona-o sobre a imagem */
+
 .data {
-    /* Tira a section do fluxo e a posiciona em relação ao seu pai (hero-image-container) */
+
     position: absolute; 
     background-color: rgba(255, 255, 255, 0.9);
-    /* Exemplo de posicionamento: Centro da imagem */
-    padding: 0px;         /* Move 50% a partir do topo do contêiner */
+
+    padding: 0px;       
     transform: skewY(-1deg);
-    /* Estilos de visualização (cores, padding, etc.) */
-    background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
+  
+    background-color: rgba(255, 255, 255, 0.7); 
     color: rgb(9, 9, 9);
     top: 10%;    
     left: 10%;
@@ -57,10 +56,9 @@
 .weather {
     position: absolute; 
     background-color: rgba(255, 255, 255, 0.9);
-    /* Exemplo de posicionamento: Centro da imagem */
-    padding: 0;         /* Move 50% a partir do topo do contêiner */
-    /* Estilos de visualização (cores, padding, etc.) */
-    background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
+    padding: 0;   
+ 
+    background-color: rgba(255, 255, 255, 0.7); 
     color: rgb(0, 0, 0);
     bottom: 5%;    
     right: 5%;
