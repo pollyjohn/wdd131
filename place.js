@@ -23,7 +23,7 @@
                 windChillDisplay.textContent = `${windChillFactor.toFixed(1)} °C`;
 
             } else {
-                // As condições NÃO são atendidas
+                // As condições NÃO sãoatendidas
                 windChillDisplay.textContent = "N/A"; // Not Applicable
             }
             
@@ -35,11 +35,13 @@
             // O conteúdo do copyright é definido no HTML, mas o ano pode ser atualizado se necessário:
             copyrightSpan.innerHTML = copyrightSpan.innerHTML.replace('2024', currentYear);
 
-            // Define a data da última modificação (Hardcoded para corresponder à imagem)
-            const lastModifiedDate = "02/08/2024 22:47:47";
-            document.getElementById('last-modified').textContent = `Last Modification: ${lastModifiedDate}`;
+            // const lastModifiedDate = "02/08/2024 22:47:47";
+            // document.getElementById('last-modified').textContent = `Last Modification: ${lastModifiedDate}`;
         });
 
+        
+        
+//  last modified and current year script
 
 
 
