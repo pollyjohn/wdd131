@@ -1,10 +1,20 @@
+:root {
+    --primary-color: #c23b22;
+    --secondary-color: #006847;
+    --text-color: #000000;
+    --background-color: #ffffff;
+    --font-family: 'Arial', sans-serif;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 @media only screen and (max-width: 640px){
  
     header, footer {
         text-align: center;
         padding: 1em;
-        background-color: #c23b22;
-        color: white;
+        background-color: var(--primary-color);
+        color: var(--background-color);
     }
 
 
@@ -12,7 +22,7 @@
         max-width: 1580px;
             margin: 0 auto;
     border: 15px solid;
-    border-image: linear-gradient(to top, #c23b22, #006847) 1;
+    border-image: linear-gradient(to top, var(--primary-color), var(--secondary-color)) 1;
     height: auto;
 
     }
